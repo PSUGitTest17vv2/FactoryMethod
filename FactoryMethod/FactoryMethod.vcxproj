@@ -141,6 +141,13 @@
   <ItemGroup>
     <ClCompile Include="FM.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommunityExecutive.h" />
+    <ClInclude Include="Developer.h" />
+    <ClInclude Include="HiringManager.h" />
+    <ClInclude Include="IInterviewer.h" />
+    <ClInclude Include="OtherManager.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
