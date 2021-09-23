@@ -4,8 +4,9 @@
 #include "IInterviewer.h"
 #include "OtherManager.h"
 
-#include "Developer.h"
 #include "CommunityExecutive.h"
+#include "Application.h"
+#include "Developer.h"
 
 int main()
 {
@@ -14,6 +15,9 @@ int main()
 
     HiringManager* marketingManager = new OtherManager<CommunityExecutive>();
     marketingManager->takeInterview();
+
+    HiringManager* appManager = new OtherManager<Application>();
+    appManager->takeInterview();
 
 	return 0;
 }

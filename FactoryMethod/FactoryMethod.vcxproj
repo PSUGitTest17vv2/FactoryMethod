@@ -142,6 +142,7 @@
     <ClCompile Include="FM.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Application.h" />
     <ClInclude Include="CommunityExecutive.h" />
     <ClInclude Include="Developer.h" />
     <ClInclude Include="HiringManager.h" />
